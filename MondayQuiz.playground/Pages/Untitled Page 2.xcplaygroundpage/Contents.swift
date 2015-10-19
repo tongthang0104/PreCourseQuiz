@@ -12,6 +12,21 @@ Don't forget to call the function at the bottom
 
 import Foundation
 
+var ages = ["Pau": 23, "Mike": 24, "Mark": 25, "Michelle": 21, "Michael": 28]
+
+let nameKey = "nameKey"
+let ageKey = "ageKey"
+
+
+func myDictionary (var member: Dictionary<String, AnyObject>) -> Dictionary<String, AnyObject> {
+    
+    for person in ages {
+        ages = person.1 + 1
+    }
+     return myDictionary ()
+
+}
+
 
 
 //: [Previous](@previous)
